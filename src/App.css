@@ -1,8 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico');
+
+
 .App {
   text-align: center;
+  font:100;
+  color:rgb(9, 9, 22)
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,28 +17,51 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
+.header {
+  font-size: 400px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #7e8289;
+  font-family: 'Pacifico', sans-serif;
+  width: 100%;
+  height: 50px;
+  
 
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #7e8289;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(16, 13, 13);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-text p {
+  font-size: 30px;
+  text-shadow: -1px 1px 2px #000,
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    font-weight: bold;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+#h2 {
+  font-size: 10em;
 }
