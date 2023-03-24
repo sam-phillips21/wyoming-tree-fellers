@@ -59,7 +59,7 @@ const App = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            // src={FoodImages.Seafood}
+            src={Images.Photo3}
             alt="Trees"
           />
 
@@ -71,25 +71,25 @@ const App = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            // src={FoodImages.Italian}
+            src={Images.Photo4}
             alt="Trees2"
           />
 
           <Carousel.Caption>
             <h3>Leave reviews for your favorite restaurants.</h3>
-            <p> fdsgfdsgds</p>
+            <p> </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            // src={FoodImages.Japanese}
+            src={Images.Photo5}
             alt="Landscape"
           />
 
           <Carousel.Caption>
             <h3>Emergency Services Available!</h3>
-            <p> dfgdfg</p>
+            <p> </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
