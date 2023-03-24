@@ -4,6 +4,7 @@ import './App.css';
 import {Route, Routes } from 'react-router-dom' 
 import Main from './Main'
 import { Carousel } from 'react-bootstrap';
+import Images from './Images.js'
 
 const App = () => {
 
@@ -19,12 +20,12 @@ const App = () => {
 
     <div className='header'>
 
-<h3> 307-699-5808 {<br />} wyomingtreefellers@gmail.com  </h3>
+<h3> 307-699-5808 {<br />} wyomingtreefellers@gmail.com {<br />}     </h3>
 
 
 {<br />}
 
-<h3>   </h3>
+
 
 </div>
 
@@ -34,8 +35,8 @@ const App = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            // src={FoodImages.Fusion}
-            alt="Avocados"
+            src={Images.Photo1}
+            alt="PeteTree"
           />
           <Carousel.Caption>
             <h3>It's all about Safety!</h3>
@@ -47,7 +48,7 @@ const App = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 carousel-img"
-            src="https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src={Images.Photo2}
             alt="TreeCare"
           />
           <Carousel.Caption>
