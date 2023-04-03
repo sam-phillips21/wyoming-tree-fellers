@@ -3,7 +3,7 @@ const Images = {
     Photo2:"https://i.imgur.com/dhDG8fI.jpg",
     Photo3: "https://i.imgur.com/UPAnpCy.jpg",
     Photo4: "https://i.imgur.com/4dsm3LK.jpg",
-    Photo5: "https://i.imgur.com/4dsm3LK.jpg"
+    Photo5: "https://i.imgur.com/LILE6uV.png"
 
 
 }
