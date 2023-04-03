@@ -95,7 +95,7 @@ const App = () => {
             Firewood Services  {<br />} 
 
             24-Hour Emergency Services {<br />}
-            Liscenced and Insured {<br />} 
+             
 
           </p>
 
